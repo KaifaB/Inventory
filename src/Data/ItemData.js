@@ -1,5 +1,3 @@
-import Item from "../Components/Item"
-
 const Data = [
     {
         width: 1,
@@ -7,12 +5,32 @@ const Data = [
     },
     {
         width: 1,
-        height: 2
+        height: 1
+    },
+    {
+        width: 1,
+        height: 3
     },
     {
         width: 1,
         height: 1
-    }
+    },
+    {
+        width: 1,
+        height: 1
+    },
+    {
+        width: 1,
+        height: 1
+    },
+    {
+        width: 1,
+        height: 1
+    },
+    {
+        width: 1,
+        height: 1
+    },
 
 ]
 

@@ -25,10 +25,12 @@
   background: black;
 }
 .grid{
-  display: grid;
+  display: flex;
+  flex-wrap:wrap-reverse;
   border: black 2px solid;
+  width: 750px;
   grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 150px 150px 150px;
 }
 .item{
   position: relative;

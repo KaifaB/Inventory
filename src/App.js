@@ -83,18 +83,12 @@ class App extends React.Component {
             </ul>
         </div>
         <div className="grid">
-          {Data.map((curr, key) =>{
-            return(
-              <Item
-              disabled={this.state.disabled}
-              move={this.state.move}
-              resize={this.state.resize}
-              delete={this.state.delete}
-              style = {{ gridColumn: (key+1)%5, gridRow: key }}
-              row={curr.width}
-              />
-            )
-        })}
+          <div className="item-a"></div>
+          <div className="item-b"></div>
+          <div className="item-c"></div>
+          <div className="item-d"></div>
+          <div className="item-e"></div>
+          <div className="item-f"></div>
         </div>
       </div>
     );
